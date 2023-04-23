@@ -1,0 +1,5 @@
+hello (2.11-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Qian-Hao Huang <qiao.helloworld@gmail.com>  Mon, 24 Apr 2023 00:44:43 +0800
