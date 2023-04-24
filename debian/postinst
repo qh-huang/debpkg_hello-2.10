@@ -1,0 +1,10 @@
+#!/bin/sh
+# postinst script for hello
+
+set -e
+
+echo "this is a test from Qian-Hao Huang"
+
+#DEBHELPER#
+
+exit 0

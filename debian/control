@@ -1,15 +1,16 @@
 Source: hello
-Section: unknown
+Section: devel
 Priority: optional
 Maintainer: Qian-Hao Huang <qiao.helloworld@gmail.com>
-Build-Depends: debhelper-compat (= 12), autotools-dev
+Build-Depends: debhelper-compat (= 12), texinfo
 Standards-Version: 4.4.1
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/qiao-tw/debpkg_hello-2.10
 #Vcs-Browser: https://salsa.debian.org/debian/hello
 #Vcs-Git: https://salsa.debian.org/debian/hello.git
 
 Package: hello
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: take-home-test of Qian-Hao Huang
+ This is a hello package for Qian-Hao Huang to
+ submit for take-home-test.
